@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light {
+    --wingmanprimary: 254 254 244;
+    --wingmansecondary: 17 77 71;
+    --wingmantextcolor: 17 77 71;
+    --wingmanproductcard: 255 255 255;
+  }
+  
+  .dark {
+    --wingmanprimary: 67 67 67;
+    --wingmansecondary: 36 36 36;
+    --wingmantextcolor: 254 254 244;
+    --wingmanproductcard: 67 67 67;
+  }
