@@ -9,7 +9,7 @@ import { BrowserRouter } from "react-router";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter basename="/WingmanCodingChallenge/">
+    <BrowserRouter basename="https://wingman-coding-challenge.vercel.app/">
       {/* gives entire application access to store */}
       <Provider store={store}>
         <App />
